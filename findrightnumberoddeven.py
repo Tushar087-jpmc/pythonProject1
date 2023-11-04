@@ -10,7 +10,7 @@ import sys
 number = int(input("Enter the number to perform the check :"))
 def findrightnumberoddeven(number):
 
-    if number not in range(100, 1000):
+    if number not in range(100, 1001):
         print(f"number {number} is not in range 100 to 1000, wrong number provided")
         sys.exit()
     else:
